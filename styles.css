@@ -266,6 +266,12 @@ body {
   }
 }
 
+@media (min-width: 500px) {
+  .second-wrapper .dismiss {
+    margin-top: 0;
+  }
+}
+
 /* Desktop (1440px) Styles */
 @media (min-width: 1440px) {
   .wrapper {
@@ -301,9 +307,15 @@ body {
 
   .second-wrapper .congrat-msg {
     font-size: 3.5rem; /* Increase congrat message font size */
+
   }
 
   .second-wrapper .confirmation-msg {
     font-size: 1.1rem; /* Increase confirmation message font size */
   }
+
+  .second-wrapper .dismiss {
+    margin: 0;
+  }
+
 }
